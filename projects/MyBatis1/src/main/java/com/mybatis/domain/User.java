@@ -20,4 +20,10 @@ public class User {
        this.age = age;
     }
 
+
+    @Override
+    public String toString() {
+
+        return "user"+ getAge() + getName();
+    }
 }

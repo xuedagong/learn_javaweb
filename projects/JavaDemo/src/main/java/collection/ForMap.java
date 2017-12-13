@@ -5,6 +5,8 @@ import java.util.*;
 public class ForMap{
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<String, String>();
+        Map<String, Integer> map1 = new HashMap<String, Integer>();
+
         map.put("1", "value1");
         map.put("2", "value2");
         map.put("3", "value3");

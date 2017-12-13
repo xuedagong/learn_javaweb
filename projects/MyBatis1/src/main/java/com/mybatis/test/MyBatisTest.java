@@ -30,7 +30,7 @@ public class MyBatisTest {
         SqlSession sqlSession = getSessionFactory().openSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
         User user = userMapper.findById("1");
-        System.out.println(user.getName());
+        System.out.println(user);
         sqlSession.close();
     }
 }
