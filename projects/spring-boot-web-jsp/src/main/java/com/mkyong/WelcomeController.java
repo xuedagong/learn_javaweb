@@ -16,6 +16,7 @@ public class WelcomeController {
 	@RequestMapping("/")
 	public String welcome(Map<String, Object> model) {
 		model.put("message", this.message);
+		System.out.println(this.message);
 		return "welcome";
 	}
 

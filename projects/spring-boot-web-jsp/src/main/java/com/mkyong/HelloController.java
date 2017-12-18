@@ -24,7 +24,8 @@ public class HelloController {
 	@GetMapping("/hello2")
 	public String[] hello2()
 	{	
-		String[] intStr = {"ni","中文呢","ma"}; 
+		String[] intStr = {"ni","中文呢","ma"};
+		System.out.println(intStr[1]);
 		return intStr;
 	}
 }
