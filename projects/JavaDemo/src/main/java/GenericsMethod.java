@@ -26,7 +26,12 @@ public class GenericsMethod {
                 new Person(18,"tom"),
         };
 
-
+        Person a=new Person(22,"xue");
+        Person  aaaa=a;
+        changeIt(a);
+        a.getName();
+        System.out.println(a.getName());
+        System.out.println(aaaa.getName());
         System.out.println("Array integerArray contains:");
         printArray(intArray); // pass an Integer array
 
@@ -41,6 +46,11 @@ public class GenericsMethod {
         printArray(personArray); //
 
     }
+
+    public static void changeIt(Person person){
+        person.setName("xuedagong");
+    }
+
 }
 
 class Person{
