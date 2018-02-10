@@ -2,6 +2,7 @@ package DateLearn;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class TimeStampExample {
@@ -22,6 +23,10 @@ public class TimeStampExample {
 
         //format timestamp
         System.out.println(sdf.format(timestamp));
+
+//        LocalDate localDate=LocalDate.now();
+//        localDate.c
+//        LocalDate localDate1=new LocalDate("")
 
     }
 }

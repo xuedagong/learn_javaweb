@@ -1,1 +1,9 @@
 /projects/myActiveMQ/target
+*/target
+*.iml
+*/target
+*/.idea
+*/WEB-INF/lib
+
+.idea
+lib

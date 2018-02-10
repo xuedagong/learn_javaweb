@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class ForList{
     public static void main(String[] args) {
@@ -8,8 +9,22 @@ public class ForList{
         list.add("Hello");
         list.add("World");
         list.add("HAHAHAHA");
+
+        List<String> newList=list.stream().map(s -> {
+            System.out.println(s);
+            return "13123";
+        }).collect(Collectors.toList());
+
+        System.out.println("=sss=");
+//
+//        list.stream().map(s -> {
+//            System.out.println(s);
+//            return ;
+//        });
+
+
         //第一种遍历方法使用foreach遍历List
-        for (String str : list) {            //也可以改写for(int i=0;i<list.size();i++)这种形式
+        for (String str : newList) {            //也可以改写for(int i=0;i<list.size();i++)这种形式
             System.out.println(str);
         }
 

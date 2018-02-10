@@ -1,5 +1,8 @@
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 public class HelloDemo {
     public static void main(String[] args) {
@@ -19,6 +22,9 @@ public class HelloDemo {
 //        changeIt(a);
 //        System.out.println( a);
 //        vendorBookResult.getFreight().compareTo(BigDecimal.ZERO) >0
+        String[] strArray={"1","2","3"};
+        List<String> list= Arrays.asList( strArray);
+        System.out.println("fjaldjf");
     }
 
 
