@@ -47,4 +47,12 @@ public class Person implements Serializable {
                 ", email='" + email + '\'' +
                 '}';
     }
+
+    public void testMethod(String name,Integer age){
+
+    }
+
+    public void sayHello(){
+        System.out.println("hello world");
+    }
 }
