@@ -32,7 +32,6 @@ public class TimeStampExample {
 ////        localDate.c
 ////        LocalDate localDate1=new LocalDate("")
         String ss="{\"status\":-1,\"err_msg\":\"暂时不支持ip域名，请重新输入\",\"longurl\":\"http://10.32.32.112/G1/M00/00/02/CiAgcFqweyWIckPeAACcgv6VZygAAAA1wD45iwAAJya777.pdf\"}";
-        JSON.to
 
     }
 }

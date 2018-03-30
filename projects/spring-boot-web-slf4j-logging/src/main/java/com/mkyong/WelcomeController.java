@@ -21,8 +21,6 @@ public class WelcomeController {
 	@Value("${welcome.message:test21212}")
 	private String message = "Hello World";
 
-	@Resource
-	private OrderFilmMapper orderFilmMapper;
 
 	@RequestMapping("/")
 	public String welcome(Map<String, Object> model) {
@@ -30,7 +28,6 @@ public class WelcomeController {
 		logger.debug("Welcome {}", "testing");
 
 		model.put("message", this.message);
-		OrderFilm orderFilm=orderFilmMapper.selectByPrimaryKey(1);
 		return "welcome";
 	}
 

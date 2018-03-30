@@ -1,9 +1,13 @@
 /projects/myActiveMQ/target
 */target
 *.iml
-*/target
 */.idea
 */WEB-INF/lib
-
 .idea
 lib
+projects/myboot1/target
+projects/JavaDemo/target
+projects/JavaDemo/.settings
+projects/JavaDemo/target/
+target
+/projects/spring-boot-web-jsp/target
